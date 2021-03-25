@@ -1,8 +1,8 @@
 name: anmolsethi
-description: A new Flutter package project.
+description: My Package.
 version: 0.0.1
 author: Anmol Sethi
-homepage: null
+homepage: https://github.com/AnmolSethi/AnmolSethiPackage
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

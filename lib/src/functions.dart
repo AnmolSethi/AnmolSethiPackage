@@ -26,9 +26,8 @@ changeStatusColor(Color color) async {
   }
 }
 
-Future<bool> showMessage(String message,
-    {bool error = false, bool basic = false}) {
-  return Fluttertoast.showToast(
+void showMessage(String message, {bool error = false, bool basic = false}) {
+  Fluttertoast.showToast(
     msg: message,
     textColor: Colors.white,
     toastLength: Toast.LENGTH_SHORT,
